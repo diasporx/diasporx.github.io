@@ -3,6 +3,7 @@
 .content1 {
 	display: none;
 }
+.menu-bg-s>.logo {display: none;} 
 .menu-bg-s {display: block;}
 .header>.logo {display: none;}
 .menu-bg-s>.logo {display: block;}
