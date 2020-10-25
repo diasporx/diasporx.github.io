@@ -125,8 +125,9 @@ p.logotext {
   z-index: 9999;
   position: absolute;
   right: 0;
+  transform: scale(0.5);
   float: right;
-  margin: 0 70px;
+  margin: -35px 5px;
   -webkit-tap-highlight-color: transparent;
   transition: transform 400ms;
   -moz-user-select: none;
@@ -149,10 +150,13 @@ p.logotext {
 	z-index: 90;
 }
 .hamRotate.active1 {
-  transform: rotate(45deg);
+  transform: rotate(45deg) scale(0.5);
+
 }
 .hamRotate180.active1 {
   transform: rotate(180deg);
+  transform: scale(0.5);
+
 }
 .ham1 .top {
   stroke-dasharray: 40 139;
@@ -478,20 +482,20 @@ a.but-on:hover {
 	position: fixed;
 	background: #111;
 	z-index: 9999;
-	height: inherit;
+	height: 50px;
 	display: none;
 }
 .block-text-tt-resp {display: none; padding: 30px 20px;}
 .block-text-tt-resp>h1 {color: #fff; text-align: center;}
 .block-text-tt-resp>p {color: #fff; text-align: center;}
-.share_hide {top:100px; animation: textt 1s; position: absolute; width: 100%;background: #111;}
+.share_hide {top:50px; animation: textt 1s; position: absolute; width: 100%;background: #111;}
 @keyframes textt {
-from {top:-800px;}
-to {top:100px;}
+from {top:-500px;}
+to {top:50px;}
 }
-.share_show {top:-800px; animation: texttt 1s; position: absolute;width: 100%;background: #111;}
+.share_show {top:-500px; animation: texttt 1s; position: absolute;width: 100%;background: #111;}
 @keyframes texttt {
-from {top:100px;}
-to {top:-800px;}
+from {top:50px;}
+to {top:-500px;}
 }
 .menu-rw {position: absolute; width: 100%; background: #000; top: -800px;}
