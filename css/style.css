@@ -145,12 +145,15 @@ p.logotext {
 .menu-responsive {
 	width: 100%;
 	transition: all 1s ease-in-out;
-	background: #000;
 	position: fixed;
+	text-align: center;
+    vertical-align: middle;
+    height: 100vh;
+    top: -800px;
 	z-index: 90;
 }
 .hamRotate.active1 {
-  transform: rotate(45deg) scale(0.5);
+  transform: rotate(45deg) scale(0.5) translate(-20px, 0px);;
 
 }
 .hamRotate180.active1 {
@@ -452,9 +455,9 @@ a.but-on:hover {
 	text-decoration: none;
 	color: #333;
 }
-.menu-responsive>ul>li>a {
+.share>ul>li>a {
 	float: left;
-	padding: 40px 0;
+	padding: .4em 1em;
 	width: 100%;
 	text-align: center;
 	color: #FFF;
@@ -468,9 +471,10 @@ a.but-on:hover {
     letter-spacing: .06em;
 	transition: all .2s ease-in-out;
 }
-.menu-responsive>ul>li {
+.share>ul>li {
 	width: 100%;
     display: inline-block;
+    margin: .2em 0;
 }
 .carousel-indicators li {
 	border-radius: 50%;
@@ -488,14 +492,28 @@ a.but-on:hover {
 .block-text-tt-resp {display: none; padding: 30px 20px;}
 .block-text-tt-resp>h1 {color: #fff; text-align: center;}
 .block-text-tt-resp>p {color: #fff; text-align: center;}
-.share_hide {top:50px; animation: textt 1s; position: absolute; width: 100%;background: #111;}
+.share_hide {top:50px; animation: textt 1s; position: absolute; width: 100%;background: rgba(0,0,0,0.7);}
 @keyframes textt {
 from {top:-650px;}
 to {top:50px;}
 }
-.share_show {top:-650px; animation: texttt 1s; position: absolute;width: 100%;background: #111;}
+.share_show {top:-650px; animation: texttt 1s; position: absolute;width: 100%;background: rgba(0,0,0,0.7);}
 @keyframes texttt {
 from {top:50px;}
 to {top:-650px;}
 }
-.menu-rw {position: absolute; width: 100%; background: #000; top: -800px;}
+.menu-rw {
+	position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.share {
+	    width: 100%;
+    transition: all 1s ease-in-out;
+    position: fixed;
+    text-align: center;
+    vertical-align: middle;
+    height: 100vh;
+    z-index: 90;
+}

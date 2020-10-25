@@ -3,7 +3,9 @@
 .content1 {
 	display: none;
 }
-.menu-bg-s>.logo {display: none;} 
+.carousel {margin-top: 50px;}
+.menu-bg-s>.logo>img {display: none;} 
+.logo.logo {display: none;} 
 .menu-bg-s {display: block;}
 .header>.logo {display: none;}
 .menu-bg-s>.logo {display: block;}
@@ -51,7 +53,7 @@ svg.ham {display: none;}
 .menu-responsive>ul>li>a {
 	padding: 0 !important;
 }
-.carousel {top: 50px;}
+/*.carousel {top: 50px;}*/
 .menu-bg-s>.logo {display: none;} 
 
 }
