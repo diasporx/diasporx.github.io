@@ -144,7 +144,7 @@ p.logotext {
 }
 .menu-responsive {
 	width: 100%;
-	transition: all 1s ease-in-out;
+	/*transition: all 1s ease-in-out;*/
 	position: fixed;
 	text-align: center;
     vertical-align: middle;
