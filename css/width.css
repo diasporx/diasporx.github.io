@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1210px) {
+ 
+.content1 {
+	display: none;
+}
+.menu-bg-s {display: block;}
+.header>.logo {display: none;}
+.menu-bg-s>.logo {display: block;}
+.block-text-tt {margin-left: 20px !important;}
+.header1 {display: none !important;}
+.awesome-block {display: none;}
+h1.title-ph {display: none;}
+.menu-responsive>ul {display: block !important;}
+.menu {display: none; }
+h1.responsive-title {font-size: 38px; display: block;}
+
+ 
+}
+@media only screen and (max-width: 987px) {
+ 
+.block-num>span {font-size: 44px;}
+h1.title-num1 {font-size: 22px;}
+/*.left-roa {height: auto;}*/
+ 
+}
+@media only screen and (max-width: 782px) {
+ 
+.ex2 {height: auto;}
+/*.ex4 {padding: 100px 0;}*/
+.left-roa {height: auto;}
+.img-blockd {text-align: center;}
+.text-block {text-align: center;}
+.right-roa {display: none;}
+.left-roa {width: 100%; padding: 70px 0;}
+h1.title {font-size: 38px;}
+.block-text-tt-resp {display: block;}
+}
+@media only screen and (min-width: 1210px) {
+ 
+svg.ham {display: none;}
+ 
+}
+@media only screen and (max-width: 992px) {
+ 
+Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.
+ 
+}
+@media only screen and (max-width: 768px) {
+ 
+Планшеты в режиме portrait.
+ 
+}
+@media only screen and (max-width: 480px) {
+ 
+Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.
+ 
+}
+
+
+
+
+
+/**/
