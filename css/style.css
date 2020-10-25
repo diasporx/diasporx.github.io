@@ -490,12 +490,12 @@ a.but-on:hover {
 .block-text-tt-resp>p {color: #fff; text-align: center;}
 .share_hide {top:50px; animation: textt 1s; position: absolute; width: 100%;background: #111;}
 @keyframes textt {
-from {top:-500px;}
+from {top:-650px;}
 to {top:50px;}
 }
-.share_show {top:-500px; animation: texttt 1s; position: absolute;width: 100%;background: #111;}
+.share_show {top:-650px; animation: texttt 1s; position: absolute;width: 100%;background: #111;}
 @keyframes texttt {
 from {top:50px;}
-to {top:-500px;}
+to {top:-650px;}
 }
 .menu-rw {position: absolute; width: 100%; background: #000; top: -800px;}
