@@ -494,13 +494,13 @@ a.but-on:hover {
 .block-text-tt-resp>p {color: #fff; text-align: center;}
 .share_hide {top:50px; animation: textt 1s; position: absolute; width: 100%;background: rgba(0,0,0,0.7);}
 @keyframes textt {
-from {top:-650px;}
+from {top:-100%;}
 to {top:50px;}
 }
-.share_show {top:-650px; animation: texttt 1s; position: absolute;width: 100%;background: rgba(0,0,0,0.7);}
+.share_show {top:-100%; animation: texttt 1s; position: absolute;width: 100%;background: rgba(0,0,0,0.7);}
 @keyframes texttt {
 from {top:50px;}
-to {top:-650px;}
+to {top:-100%;}
 }
 .menu-rw {
 	position: absolute;
@@ -510,7 +510,7 @@ to {top:-650px;}
 }
 .share {
 	    width: 100%;
-    transition: all 1s ease-in-out;
+    /*transition: all 1s ease-in-out;*/
     position: fixed;
     text-align: center;
     vertical-align: middle;
