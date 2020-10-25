@@ -50,8 +50,8 @@ svg.ham {display: none;}
  
 .menu-responsive>ul>li>a {
 	padding: 0 !important;
-
 }
+.carousel {top: 50px;}
 .menu-bg-s>.logo {display: none;} 
 
 }
