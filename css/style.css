@@ -8,6 +8,9 @@
 	/*height: 100vh;*/
 	/*background: url(../img/slider-video.mp4);*/
 }
+body {
+	font-family: "Source Sans Pro", sans-serif;
+}
 
 
 h3 {
@@ -72,12 +75,14 @@ height: 100%;
   	width: 100%;
 	height: 100px;
 	position: fixed;
-	background: #000;
+	background: #111;
 	transition: all 1s ease-in-out;
 	z-index: 9999;
 	display: inline-flex;
 }
-.header1>.menu>ul>li.cl-effect-1>a {color: #fff; font-family: 'Yanone Kaffeesatz', sans-serif;}
+.hf4g {display: block;}
+.hf5g {display: none;}
+.header1>.menu>ul>li.cl-effect-1>a {color: #fff;}
 .menu {
 	margin: 0 auto;
 	display: block;
@@ -198,11 +203,11 @@ p.logotext {
 	text-transform: uppercase;
 	/*font-weight: 900;*/
 	font-size: 22px;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 24px;
+	font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
     line-height: 26px;
-    font-weight: 400;
-    letter-spacing: .06em;
+    font-weight: 900;
+    /*letter-spacing: -0.03em;*/
 	transition: all .2s ease-in-out;
 }
 .menu>ul>li>a:hover {
@@ -247,8 +252,9 @@ body {
 	/*padding: 100px 0;*/
 }
 h1.title {
-	font-family: 'Anton', sans-serif;
-    font-size: 68px;
+	font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
     text-align: center;
     line-height: 55px;
 }
@@ -403,7 +409,7 @@ h1.title-karta:nth-child(2) {
 	width: 100%;
 }*/
 .ex-4-1-title-black {
-	background-color:#fff;
+	background: #f3f3f3;
     padding: 70px 0;
 	float: left;
 	width: 100%;
@@ -424,14 +430,14 @@ h1.title-karta:nth-child(2) {
 	width: 100%;
 	padding: 100px 0;
 	float: left;
-	height: 100vh;
+	/*height: 100vh;*/
 }
 .input-form-foot {
 	width: 100%;
 	float: left;
 }
 .wpcf7-text {
-	font-family: Anton,sans-serif;
+	/*font-family: Anton,sans-serif;*/
     color: #080808;
     margin: 0;
     padding: 29px 0;
@@ -440,20 +446,24 @@ h1.title-karta:nth-child(2) {
     border-bottom: 2px dotted #080808;
     font-size: 23px;
     line-height: 1.74em;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 input {outline:none;}
 li.cl-effect-181 {margin-top: 30px;}
 a.but-on {
-	font-family: 'Anton', sans-serif;
-	font-size: 38px;
-	padding: 30px 20px !important;
-	transition: all .2s ease-in-out;
-	color: #111 !important;
+    font-size: 18px;
+    padding: 20px 20px !important;
+    text-transform: uppercase;
+    border: 2px solid #111;
+    font-weight: 700;
+    margin-top: 50px;
+    transition: all .2s ease-in-out;
+    color: #111;
 }
 a.but-on:hover {
 	text-decoration: none;
-	color: #333;
+	color: #fff;
+	background: #000;
 }
 .share>ul>li>a {
 	float: left;
@@ -582,6 +592,7 @@ h3.kiki {
 	float: left;
 	width: 100%;
 	padding: 100px 0;
+	background: #f3f3f3;
 }
 .img-bl {
 	text-align: center;
@@ -590,3 +601,36 @@ h3.kiki {
 .text-bl-pn {
 	text-align: center;
 }
+.title-form {
+	/*margin: 50px 0;*/
+	/*font-family: 'Russo', sans-serif;*/
+	text-align: center;
+	font-size: 32px;
+}
+.send-but>li {
+	margin-top: 30px;
+}
+.send-but>li>a {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 24px;
+}
+
+
+
+
+/*ABOUT*/
+ .about1 {
+ 	height: 500px;
+ 	width: 100%;
+ 	float: left;
+ }
+ .about2 {
+ 	padding: 70px 0;
+ 	width: 100%;
+ 	float: left;
+ }
+ .block-idea {text-align: center;}
+ .block-idea>img {
+ 	margin-bottom: 20px;
+ }
+ .block-idea>p {font-family: 'Source Sans Pro', sans-serif;}

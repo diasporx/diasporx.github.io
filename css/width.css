@@ -17,6 +17,9 @@ h1.title-ph {display: none;}
 .menu-responsive>ul {display: block !important;}
 .menu {display: none; }
 h1.responsive-title {font-size: 38px; display: block;}
+.slider {margin-top:50px;}
+.hf4g {display: none !important}
+.hf5g {display: block !important}
 
  
 }
@@ -58,7 +61,7 @@ svg.ham {display: none;}
 /*.carousel {top: 50px;}*/
 .menu-bg-s>.logo {display: none;} 
 .cd-headline {
-    font-size: 22px;
+    font-size: 26px !important;
   }
   .text-bl-pn>p {font-size:16px;}
 
