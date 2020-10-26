@@ -12,6 +12,7 @@
 .block-text-tt {margin-left: 20px !important;}
 .header1 {display: none !important;}
 .awesome-block {display: none;}
+.carousel-caption>h3 {  font-size: 78px;line-height: 60px;}
 h1.title-ph {display: none;}
 .menu-responsive>ul {display: block !important;}
 .menu {display: none; }
