@@ -634,3 +634,51 @@ h3.kiki {
  	margin-bottom: 20px;
  }
  .block-idea>p {font-family: 'Source Sans Pro', sans-serif;}
+
+ .ex6 {
+ 	padding: 50px 0;
+ 	float: left;
+ 	width: 100%;
+ 	background: #191919;
+ }
+ .awesome-block-foot {
+	/*position: absolute;*/
+	/*right: 100px;*/
+	/*margin-top: 7px;*/
+	display: flex;
+}
+.awesome-block-foot>.aws-rot> a {
+	color: #fff;
+	margin-right: 10px;
+	font-size: 28px;
+	transition: all .2s ease-in-out;
+}
+.awesome-block-foot>.aws-rot>a:hover {
+	text-decoration: none;
+	color: #ababab;
+	/*font-size: 29px;*/
+}
+.ex7 {
+	background: #000;
+	width: 100%;
+	float: left;
+}
+.left-frame {
+	width: 50%;
+    position: relative;
+    float: right;
+    margin-top: 100px;
+    height: 100vh;
+    padding: 40px 30px;
+}
+.lfb {
+	    position: absolute;
+    top: 50%;
+    right: 50%;
+    /* transform: translateX(50%); */
+    transform: translateY(-50%) translateX(50%);
+
+}
+.text-align-left {
+	text-align: left;
+}
