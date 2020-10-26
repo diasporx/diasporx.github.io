@@ -77,7 +77,7 @@ height: 100%;
 	z-index: 9999;
 	display: inline-flex;
 }
-.header1>.menu>ul>li.cl-effect-1>a {color: #fff;}
+.header1>.menu>ul>li.cl-effect-1>a {color: #fff; font-family: 'Yanone Kaffeesatz', sans-serif;}
 .menu {
 	margin: 0 auto;
 	display: block;
@@ -198,8 +198,8 @@ p.logotext {
 	text-transform: uppercase;
 	/*font-weight: 900;*/
 	font-size: 22px;
-	font-family: 'Anton', sans-serif;
-    font-size: 18px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 24px;
     line-height: 26px;
     font-weight: 400;
     letter-spacing: .06em;
@@ -508,6 +508,7 @@ to {top:-100%;}
     top: 50%;
     transform: translateY(-50%);
 }
+.menu-rw>li>a {font-family: 'Yanone Kaffeesatz', sans-serif;}
 .share {
 	    width: 100%;
     /*transition: all 1s ease-in-out;*/
