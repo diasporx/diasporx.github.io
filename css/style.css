@@ -403,12 +403,12 @@ h1.title-karta:nth-child(2) {
 	width: 100%;
 }*/
 .ex-4-1-title-black {
-	background-color: #222;
+	background-color:#fff;
     padding: 70px 0;
 	float: left;
 	width: 100%;
 }
-.ex-4-1-title-black>.text-block-1>h1.title {color: #fff;}
+.ex-4-1-title-black>.text-block-1>h1.title {color: #000;}
 .left-roa {
 	width: 50%;
 	float: left;
@@ -535,12 +535,12 @@ to {top:-100%;}
 	line-height: 110px;
 	border: none;
 	width: 100%;
-	font-size: 138px;
+	font-size: 128px;
 	/*max-width: 500px;*/
 	background: none;
 }
 .carousel-caption>.kiki-b>h3 {
-	font-size: 130px;
+	font-size: 120px;
 	color: #fff;
 	    margin-right: -208px;
 	font-family: 'Kaushan Script', cursive;
@@ -548,7 +548,7 @@ to {top:-100%;}
 }
 .carousel-caption>p {
     font-family: 'Comfortaa', cursive;
-    font-size: 24px;
+    font-size: 20px;
 
 } 
 h3.kiki {
@@ -556,65 +556,36 @@ h3.kiki {
 	line-height: 0px;
 }
 
-/**/
-@import url(https://fonts.googleapis.com/css?family=Arvo:700);
-@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
-body {
-  background-color: #222;
+
+.sppb-column {
+    width: 100%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
-.plate {
-  width: 410px;
-  margin: 10% auto;
+.sppb-column, .sppb-column-addons {
+    position: relative;
+    z-index: 1;
+    width: 100%;
 }
-.shadow {
-  color: #fff;
-  font-family: Arvo;
-  font-weight: bold;
-  text-shadow:
-    -3px -3px 0 #222,
-    3px -3px 0 #222,
-    -3px 3px 0 #222,
-    3px 3px 0 #222,
-    4px 4px 0 #fff,
-    5px 5px 0 #fff,
-    6px 6px 0 #fff,
-    7px 7px 0 #fff;
-  line-height: 0.8em;
-  letter-spacing: 0.1em;
-  transform: scaleY(0.7);
-  -webkit-transform: scaleY(0.7);
-  -moz-transform: scaleY(0.7);
-  margin:0;
-  text-align: center;
+.sppb-text-center {
+    text-align: center;
 }
-.script {
-  font-family: "Seaweed Script";
-  color: #fff;
-  text-align: center;
-  font-size: 40px;
-  position: relative;
-  margin:0;
+.sppb-addon-single-image-container {
+    display: inline-block;
+    position: relative;
 }
-.script span {
-  background-color: #222;
-  padding: 0 0.3em;
+.ex4-5 {
+	float: left;
+	width: 100%;
+	padding: 100px 0;
 }
-.script:before {
-  content:"";
-  display: block;
-  position: absolute;
-  z-index:-1;
-  top: 50%;
-  width: 100%;
-  border-bottom: 3px solid #fff;
+.img-bl {
+	text-align: center;
+	margin-bottom: 50px;
 }
-.text11 {
-  font-size: 60px;
+.text-bl-pn {
+	text-align: center;
 }
-.text21 {
-  font-size: 169px;
-}
-.text31 {
-  font-size: 100px;
-}
-/**/
