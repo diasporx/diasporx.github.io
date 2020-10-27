@@ -64,6 +64,7 @@ height: 100%;
 	position: absolute;
 	top:0;
 	transition: all .1s ease-in-out;
+	/*background-color: #333;*/
 	/*z-index: 9999;*/
 	display: inline-flex;
 }
@@ -91,7 +92,7 @@ height: 100%;
 }
 .logo {
 	padding: 25px 50px 25px 75px;
-    /*z-index: 999;*/
+    z-index: 999;
     position: absolute;
     width: 100%;
     display: inline-block;
@@ -682,3 +683,4 @@ h3.kiki {
 .text-align-left {
 	text-align: left;
 }
+.fp-slide {width: 100% !important;}
