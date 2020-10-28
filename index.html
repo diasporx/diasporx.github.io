@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="css/style-new.css">
 
 	<!-- <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&amp;display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;800&family=Russo+One&display=swap" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
 
@@ -27,26 +29,62 @@
 <script src="https://unpkg.com/scrollreveal"></script>
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="css/animate.css" />
-<!-- <script src="js/wow.min.js"></script> -->
+
 </head>
 <body>
 	<div class="wrapper">
 
 		<div class="ex1">
 			<!-- SLIDER -->
-			  	<div class="container1" id="container">
-    <div class="caption" id="slider-caption">
-        <div class="caption-heading">
-            <h1>Lorem Ipsum</h1>
+			  	<div id="sliderBigImages" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/h1-slider1-background-img.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+    			<h3 style="position: relative;right: 8%;" class="animated fadeInDown">Welcome!</h3>
+    			<h3 style="position: relative;right: 4%;" class="animated fadeInDown">we are</h3>
+    			<div class="kiki-b">
+    				<h3 class="kiki animated fadeInLeft" style="margin-top: 20px; margin-bottom: 50px;">happy</h3>
+    			</div>
+    			<h3 style="position: relative;right: -8%; animation-duration: 3s" class="animated fadeInUp">to see you</h3>
+    			<p class="animated fadeInDown d-none" style="animation-duration: 4s;">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Dolorem facilis dignissimos aliquid perspiciatis veritatis itaque rem tempora, incidunt atque fugit ducimus nam nemo, corrupti, suscipit harum totam distinctio, sint dolorum?</p>
+  			</div>
         </div>
-        <div class="caption-subhead"><span>dolor sit amet, consectetur adipiscing elit. </span></div><a class="btn" href="#">Sit Amet</a></div>
-    <div class="left-col" id="left-col">
-        <div id="left-slider"></div>
+        <div class="carousel-item">
+            <img src="img/h1-slider3-background-img.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block wow fadeIn">
+    			<h3 style="position: relative;right: 2%;" class="animated fadeInDown">You</h3>
+    			<div class="kiki-b">
+    				<h3 class="kiki animated fadeInDown">Can</h3>
+    			</div>
+    			<h3 style="position: relative;right: -4%; animation-duration: 3s" class="animated fadeInDown">get it</h3>
+    			<p class="animated fadeInDown d-none" style="animation-duration: 4s;">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Dolorem facilis dignissimos aliquid perspiciatis veritatis itaque rem tempora, incidunt atque fugit ducimus nam nemo, corrupti, suscipit harum totam distinctio, sint dolorum?</p>
+  			</div>
+        </div>
+        <div class="carousel-item">
+            <video id="video" width="100%" height="auto" autoplay="autoplay" loop="loop" preload="auto">
+			<source src="img/slider-video.mp4"></source>
+			<source src="img/slider-video.mp4" type="video/mp4"></source>
+			</video>
+			<div class="carousel-caption d-none d-md-block wow fadeIn">
+    			<h3 style="position: relative;right: 8%;" class="animated fadeInDown">Don't</h3>
+    			<h3 style="position: relative;right: 4%;" class="animated fadeInDown">miss</h3>
+    			<div class="kiki-b">
+    				<h3 class="kiki animated fadeInDown">your</h3>
+    			</div>
+    			<h3 style="position: relative;right: -4%; animation-duration: 3s" class="animated fadeInDown">chance</h3>
+    			<p class="animated fadeInDown d-none" style="animation-duration: 4s;">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Dolorem facilis dignissimos aliquid perspiciatis veritatis itaque rem tempora, incidunt atque fugit ducimus nam nemo, corrupti, suscipit harum totam distinctio, sint dolorum?</p>
+  			</div>
+        </div>
     </div>
-    <ul class="nav">
-        <li class="slide-up"><a href="#"></a></li>
-        <li class="slide-down"> <a id="down_button" href="#"></a></li>
-    </ul>
+    <a class="carousel-control-prev" href="#sliderBigImages" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#sliderBigImages" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
 			<!-- SLIDER -->
 
@@ -56,7 +94,7 @@
 				<div class="logo">
 					<img src="img/logo.png" alt="">
 					<div class="content1">
-			           <div class="text1 wow fadeIn"></div>
+			           <div class="text1"></div>
 			        </div>
 			        <div class="awesome-block">
 			        	<a href="" class="aws1"><i class="fa fa-telegram"></i></a>
@@ -102,7 +140,7 @@
 				<div class="logo">
 					<img src="img/logo.png" alt="">
 					<div class="content1">
-			           <div class="text1 wow fadeIn"></div>
+			           <div class="text1"></div>
 			        </div>
 			        <div class="awesome-block">
 			        	<a href="" class="aws1"><i class="fa fa-telegram"></i></a>
@@ -195,16 +233,16 @@
 			<div class="ex4">
 				<div class="left-roa" class="parallax-window" data-parallax="scroll" data-image-src="img/m1.jpg">
 					<div class="block-text-tt-resp">
-									<h1 class="title-karta wow fadeIn">denis</h1>
-									<h1 class="title-karta wow fadeIn">maleva4</h1>
-									<p class="text-opis wow fadeIn">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni asperiores quaerat repudiandae cumque, minima obcaecati quod nostrum rerum eum, inventore. Temporibus ducimus asperiores eius eos odio beatae at qui, iste!</p>
+									<h1 class="title-karta headline">denis</h1>
+									<h1 class="title-karta tagline">maleva4</h1>
+									<p class="text-opis punchline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni asperiores quaerat repudiandae cumque, minima obcaecati quod nostrum rerum eum, inventore. Temporibus ducimus asperiores eius eos odio beatae at qui, iste!</p>
 					</div>
 				</div>
 				<div class="right-roa">
-					<div class="block-text-tt d-block">
-									<h1 class="title-karta wow fadeIn">denis</h1>
-									<h1 class="title-karta wow fadeIn">maleva4</h1>
-									<p class="text-opis wow fadeIn">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni asperiores quaerat repudiandae cumque, minima obcaecati quod nostrum rerum eum, inventore. Temporibus ducimus asperiores eius eos odio beatae at qui, iste!</p>
+					<div class="block-text-tt d-block sticky">
+									<h1 class="title-karta headline">denis</h1>
+									<h1 class="title-karta tagline">maleva4</h1>
+									<p class="text-opis wow punchline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni asperiores quaerat repudiandae cumque, minima obcaecati quod nostrum rerum eum, inventore. Temporibus ducimus asperiores eius eos odio beatae at qui, iste!</p>
 								</div>
 					</div>
 			</div>
@@ -238,33 +276,33 @@
 						</div>
 						<div class="col-md-3">
 							<div class="img-bl">
-								<img src="img/badge1.png" alt="">
+								<img src="img/badge1.png" alt="" class="headline">
 							</div>
-							<div class="text-bl-pn">
+							<div class="text-bl-pn tagline">
 								<p>100% гарантия стерильность и безопасность всех процедур, все необходимые сертификаты и лицензии.</p>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="img-bl">
-								<img src="img/badge2.png" alt="">
+								<img src="img/badge2.png" alt="" class="headline">
 							</div>
-							<div class="text-bl-pn">
+							<div class="text-bl-pn tagline">
 								<p>Ваша tattoo будет выполняться одним из лучших мастеров Пензы. Более 10.000 выполненных работ высокого качества.</p>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="img-bl">
-								<img src="img/badge3.png" alt="">
+								<img src="img/badge3.png" alt="" class="headline">
 							</div>
-							<div class="text-bl-pn">
+							<div class="text-bl-pn tagline">
 								<p>Мы можем предложить одни из самых дешевых цен на татуировки в Пензе! Консультации в тату студии и изготовления эскизов - бесплатно.</p>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="img-bl">
-								<img src="img/badge4.png" alt="">
+								<img src="img/badge4.png" alt="" class="headline">
 							</div>
-							<div class="text-bl-pn">
+							<div class="text-bl-pn tagline">
 								<p>Мастер поможет с выбором или изготовлением вашего уникального эскиза, посоветует с размером и местом нанесения.</p>
 							</div>
 						</div>
@@ -288,18 +326,18 @@
 						</div>
 						<div class="col-md-6 mx-auto d-block">
 							<div class="input-form-foot">
-								<input type="text" name="text" value="" size="40" class="wpcf7-text mx-auto d-block" aria-invalid="false" placeholder="Твое Имя" autocomplete="off">
+								<input type="text" name="text" value="" size="40" class="wpcf7-text mx-auto d-block headline" aria-invalid="false" placeholder="Твое Имя" autocomplete="off">
 							</div>
 							<div class="input-form-foot">
-								<input type="text" name="text" value="" size="40" class="wpcf7-text mx-auto d-block" aria-invalid="false" placeholder="Твой номер" autocomplete="off">
+								<input type="text" name="text" value="" size="40" class="wpcf7-text mx-auto d-block tagline" aria-invalid="false" placeholder="Твой номер" autocomplete="off">
 							</div>
 							<div class="input-form-foot">
-								<input type="text" name="text" value="" size="40" class="wpcf7-text mx-auto d-block" aria-invalid="false" placeholder="Твой e-mail" autocomplete="off">
+								<input type="text" name="text" value="" size="40" class="wpcf7-text mx-auto d-block punchline" aria-invalid="false" placeholder="Твой e-mail" autocomplete="off">
 							</div>
 							<div class="input-form-foot">
-								<input type="text" name="text" value="" size="40" class="wpcf7-text mx-auto d-block" aria-invalid="false" placeholder="Что хочешь набить?" autocomplete="off">
+								<input type="text" name="text" value="" size="40" class="wpcf7-text mx-auto d-block huit" aria-invalid="false" placeholder="Что хочешь набить?" autocomplete="off">
 							</div>
-							<div class="input-form-foot" style="display: flex;">
+							<div class="input-form-foot ta" style="display: flex;">
 								<div class="send-but d-block mx-auto">
 									<a href="#" class="but-on mx-auto d-block">Отправить</a>
 								</div>
@@ -366,13 +404,15 @@
 <script src="js/main.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
-<script src="js/index.js"></script>
+<!-- <script src="js/index.js"></script> -->
 <script src="js/index1.js"></script>
 <script src="js/parallax.js"></script>
 <script>
            ScrollReveal().reveal('.headline')
 		ScrollReveal().reveal('.tagline', { delay: 500 })
 		ScrollReveal().reveal('.punchline', { delay: 1000 })
+		ScrollReveal().reveal('.huit', { delay: 1500 })
+		ScrollReveal().reveal('.ta', { delay: 2000 })
         </script>
 <script>
 $("#to_right").click(function() {

@@ -660,7 +660,7 @@ h3.kiki {
 	/*font-size: 29px;*/
 }
 .ex7 {
-	background: #000;
+	background: #191919;
 	width: 100%;
 	float: left;
 }
@@ -684,3 +684,19 @@ h3.kiki {
 	text-align: left;
 }
 .fp-slide {width: 100% !important;}
+
+.carousel-caption>h3 {
+	animation-duration: 1s;
+}
+.kiki-b>h3 {animation-duration: 2s;}
+.sticky {
+	position: absolute;
+	position: sticky;
+    top: 150px;
+    margin-bottom: 50px;
+}
+.ex-4-4 {
+	width: 100%;
+	float: left;
+	/*height: 100vh;*/
+}
